@@ -3,7 +3,9 @@ A Programmable calculator implemented in OCaml for CS3110 at Cornell University
 
 ## Prerequisites:
 gnuplot
+
 OCaml
+
 Unix-Based system
 
 ## Installing:
