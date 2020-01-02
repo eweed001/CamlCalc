@@ -1,0 +1,51 @@
+Graphing Help:
+
+In order to graph a function, you need to define it according to the function 
+definition rule: (let <function name> = fun ( <argument list> ) -> <function body>).
+ex.
+let f = fun (x) -> x*x
+
+Then in order to graph the function, type in 
+"graph <function name> <lower bound> <upper bound>"
+ex. 
+graph f -10 10
+
+
+Derivatives, Integrals:
+
+In order to graph a derivative, you first have to define the function of which
+a derivative is to be taken of. For example:
+
+let parabola = fun (x) -> x*x
+let line = fun (x) -> deriv parabola x 0.01
+
+Now [line] is a graphable function that represents the derivative of [parabola].
+To graph this function, simply graph it as you would do with any other:
+
+graph line -10 10
+
+
+In order to graph an integral, you first have to define the function of which
+an integral is to be taken of. For example:
+
+let line = fun (x) -> x
+let parabola = fun (x) -> integ line 0 x
+
+Now [parabola] is a graphable function that represents the integral of [line]
+from 0 to some x. To graph this function, simply graph it as you would do with
+any other:
+
+graph parabola -10 10
+
+This method of wrapping the derivatives/integrals of functions as functions
+themselves works for second order derivatives and integrals as well, and is
+graphable, albeit slower due to complexity. 
+
+In order to increase speed, one may be able to lower the precision of
+derivation or lessen the distance between the lower and upper bound of graphing
+
+
+
+Note:
+When graphing trigonometric functions, be aware that the bounds are in degrees!
+

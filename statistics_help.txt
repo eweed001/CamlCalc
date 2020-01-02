@@ -1,0 +1,27 @@
+Statistics Functions:
+- mean
+- median
+- range
+- standard deviation ("stdev")
+- min 
+- max
+
+These functions can all take in inputs as a list of numbers in
+the form of [1 2 3 4 ....] 
+ex.
+mean [1 2 3 4]
+
+or a predefined list in the form of let s = [1 2 3 ...] 
+ex. 
+let s = [1 2 3 4]
+mean s
+
+- permutation ("perm")
+- combination ("comb")
+
+These functions are applied to two arguments, being the n and r
+in nPr and nCr respectively 
+
+
+The result of all these functions can be bound to variable name using a let 
+definition

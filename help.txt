@@ -1,0 +1,23 @@
+Welcome to our calculator!
+
+Functions that can be preformed:
+- Basic arithmetic ( +, sub, /, *, %, log, ^ )
+- Trigonometry (sin, cos, tan, cot, cosin, csc)
+- User-defined functions (let <function name> = fun ( <argument list> ) -> <function body>)
+- Function application (<function name> <appropiate number of arguments>)
+- If then else statements 
+- Let definitions (let <variable name> = <value> ) NOTE: no numbers can be used 
+  in variable names
+- Let expressions (let <variable name> = <value> in <expression body>)
+- Statistics functions: type "statistics help" for more help 
+- Set functions: type "sets help" for more help 
+- Matrices functions:  type "matrix help" for more help 
+- Read in code files: type "code files help" for more help
+- Fibonacci functions: type "fibonacci help" for more help
+- Graphing: type "graphing help" for more help
+- Monty Hall game (type "monty hall game")
+- Break the Code game (type "break the code game")
+- Time (gives the current date and time, type "time")
+
+type "quit" to exit
+

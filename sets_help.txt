@@ -1,0 +1,33 @@
+Set Functions:
+- Union
+- Intersect
+- Difference 
+- Is Equal ("is_equal")
+- Is Disjoint ("is_disjoint")
+- Is Subset ("is_subset")
+
+These functions all take in 2 sets as arguments.
+ex.
+let s = [1 2 3 4]
+let stwo = [ 3 4 5 6]
+union s stwo 
+
+- Append
+- Remove ("remove_val")
+- Get ("get_elem")
+
+These sets all take in a set and the value to be either added, removed, or
+position to get as the argument. 
+Note: these functions do not mutate the set you pass in, just print out the 
+result of the function applied to that set. If you want to save the result,
+bind the application to a variable
+ex. 
+let s = [1 2 3]
+let s' = append s 4
+
+- Length
+
+This function takes in one argument; the set you want to get the length of
+
+The result of all these functions can be bound to variable name using a let 
+definition

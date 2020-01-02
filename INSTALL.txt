@@ -1,0 +1,39 @@
+CAMLCALC
+==============================
+By Emily, Nathan, Alan, and Saranya
+
+
+Installation Instructions:
+
+	If you have not done so already, unzip the zip file which contains this file
+	using the appropriate tool.
+
+	Enter the directory containing these unzipped files.
+
+	Open a CLI session in this directory.
+
+	Run the command [make build] to create the build files.
+
+	If you do not already have it, this part of our project requires you to
+	install gnuplot to enable the graphing functionalities.
+
+	Important: if there exists file main.byte, remove it using [rm main.byte] 
+	before operating.
+
+Operating Instructions:
+
+	Install the calculator using the installation instructions above 
+	before running.
+
+	Run [make calc] to execute the calculator.
+
+	Type "help" within the CAMLCALC for instructions on the functionalities
+	of the calculator - Arithmetic, Fibonacci, Matrices, Sets, Statistics, 
+	Trigonometry, Graphing, Integrals, Derivatives, Monty Hall Game, Break the 
+	Code Game, Reading in Code Files
+
+
+	**ADDITIONAL FUNCTIONALITIES THAT WERE NOT DEMOED ON 12/9:
+	Fibonacci, Matrix Determinants, Matrix Eigenvectors
+
+

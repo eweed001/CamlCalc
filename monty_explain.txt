@@ -1,0 +1,23 @@
+Monty Hall Game Explaination:
+The Monty Hall Game is a probability puzzle loosely based on the game show 
+Let's Make a Deal and named after Monty Hall, the game show's long time host.
+The game is based on three assumptions:
+1. The host must always open a door that was not chosen by the user
+2. The host must always open a door to reveal a goat 
+3. The host must always offer the option to switch to the remaining door 
+
+When the user chooses a door, say A, and the host opens a door, say B 
+by choosing not to switch doors the users probability of winning remains at
+1/3.
+However if the user were to switch doors, they increase their probability 
+of winning from 1/3 to 2/3. This is due to the fact that the host knows where
+the car is and will only open a door with a goat behind it. 
+In the case where the user chooses A, we can look at doors B and C as having
+a probability of 2/3 of being the winning door. When the host opens door B,
+the probability that door C is the winning door rises from 1/3 to 2/3 
+(in a way absorbing the probability from door B which we know had a goat)
+Thus the probability of winning when the user switches doors rises to 
+2/3.
+The main idea to consider is that the hosts choice as to which door they will 
+open is not independent of the users first choice and the host knows where 
+the car is.  

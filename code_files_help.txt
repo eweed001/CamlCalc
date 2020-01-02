@@ -1,0 +1,13 @@
+Code File Reading Help:
+
+CAMLCALC supports the ability to run on a pre-written text file. In order for 
+it to function correctly you need to save the file (ending in ".txt") in the 
+same directory this project is in.
+
+Inside the .txt file should be lines of code according to the rules of the 
+CAMLCALC language, with each statement on a new line.
+ 
+To run this functionality, just type the name of the file, including .txt, 
+within the calculator and the contents of the file along with the values each
+line evaluated to will be printed. If any variable name bindings were created 
+inside the file, they will be accessible after the file has been run. 

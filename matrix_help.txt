@@ -1,0 +1,50 @@
+Matrix Functions:
+
+- Creation
+
+Matrices can be defined in two ways: 
+1. Defining the rows first then the matrix of those rows 
+
+let one = [1 2]
+let two = [3 4]
+let m = matrix one two
+
+2. Defining the matrix as a list of rows
+
+let m = matrix [1 2] [3 4]
+
+These both represent the same matrix.
+Both ways require the "matrix" keyword
+
+- Addition ("madd")
+- Subtraction ("msub")
+- Multiplication ("mdot")
+
+These functions all take in 2 matrices as the arguments. For addition and 
+subtraction, the matrices must be of the same size. For multiplication the 
+matrices must follow the dimensions M x N, N x R where M could equal R, but 
+doesn't have to
+
+- Row Echelon Form Reduction ("echelon")
+- Reduced Row Echelon Form Reduction ("rref")
+- Determinant ("determinant")
+
+These functions both take in one matrix as an argument and return the echelon 
+form, the reduced row echelon form or the determinant of that matrix accordingly
+
+- Eigenvectors ("eigenvectors")
+This function takes in two arguments, the matrix and the row of eigenvalues.
+In order to calculate eigenvectors, define a matrix as explained
+above and define the known set of eigenvectors as a row. Then pass them in as 
+the arguments to this function
+
+ex. 
+let a = matrix [0 1] [-2 -3] 
+let eig = [-1 -2]
+eigenvectors a eig
+
+or
+
+let a = matrix [0 1] [-2 -3] in let eig = [-1 -2] in eigenvectors a eig
+
+

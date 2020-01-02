@@ -1,0 +1,14 @@
+Fibonacci Functions:
+- Nth fibonacci number ("nth")
+- List of first n fibonacci numbers ("fib")
+
+These functions both take one argument, being the number fibonacci number you 
+want of the number of elements (starting with the first) you want, respectively
+
+- List of first b elements of the n-step fibonacci sequence ("nfib")
+
+This function takes two arguments, the first being the base for the fibonacci 
+sequence and the second being the number of elements you want. 
+
+The result of all these functions can be bound to variable name using a let 
+definition
